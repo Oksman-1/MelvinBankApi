@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MelvinBankApi.Presentation</name>
+    </assembly>
+    <members>
+        <member name="M:MelvinBankApi.Presentation.AccountsController.GetAllAccountsFromDb">
+            <summary>
+            Gets the list of all Accounts
+            </summary>
+            <returns>The Accounts list</returns>
+        </member>
+        <member name="M:MelvinBankApi.Presentation.AccountsController.GetAllAccounts(Shared.RequestFeatures.AccountsParameters)">
+            <summary>
+            Gets the list of all Accounts
+            </summary>
+            <returns>The Accounts list</returns>
+        </member>
+        <member name="M:MelvinBankApi.Presentation.AccountsController.Authenticate(Shared.DataTranferObjects.AuthenticateForCreationDto)">
+            <summary>
+            Authenticates an Account
+            </summary>
+            <returns>null</returns>
+        </member>
+    </members>
+</doc>

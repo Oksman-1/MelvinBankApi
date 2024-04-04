@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "firstName": "Don",
+    "lastName": "Simon",
+    "accountName": " ",
+    "phoneNumber": "08101103881",
+    "email": "donsimon_1@gmail.com",
+    "currentAccountBalance": 0,
+    "accountType": 1,
+    "accountNumberGenerated": "1000000000",
+    "dateCreated": "2024-02-06T08:45:43.249",
+    "dateLastUpdated": "2024-02-06T08:45:43.249"
+  },
+  {
+    "id": 2,
+    "firstName": "Otapko",
+    "lastName": "Isenede",
+    "accountName": " ",
+    "phoneNumber": "09123455581",
+    "email": "otapkoIsen@yahoo.com",
+    "currentAccountBalance": 0,
+    "accountType": 1,
+    "accountNumberGenerated": "1000000000",
+    "dateCreated": "2024-02-06T09:09:36.66",
+    "dateLastUpdated": "2024-02-06T09:09:36.66"
+  },
+  {
+    "id": 3,
+    "firstName": "Sam",
+    "lastName": "Mendes",
+    "accountName": " ",
+    "phoneNumber": "09085432881",
+    "email": "Sammymend@yahoo.com",
+    "currentAccountBalance": 0,
+    "accountType": 1,
+    "accountNumberGenerated": "1000000000",
+    "dateCreated": "2024-02-06T09:09:36.66",
+    "dateLastUpdated": "2024-02-06T09:09:36.66"
+  },
+  {
+    "id": 4,
+    "firstName": "Sisko",
+    "lastName": "Johnson",
+    "accountName": " ",
+    "phoneNumber": "08133225987",
+    "email": "sisky_john@gmail.com",
+    "currentAccountBalance": 0,
+    "accountType": 0,
+    "accountNumberGenerated": "1000000000",
+    "dateCreated": "2024-02-06T09:34:07.538",
+    "dateLastUpdated": "2024-02-06T09:34:07.538"
+  },
+  {
+    "id": 5,
+    "firstName": "Owolabi",
+    "lastName": "Amotekun",
+    "accountName": " ",
+    "phoneNumber": "08132452215",
+    "email": "owolabsAmo@gmail.com",
+    "currentAccountBalance": 0,
+    "accountType": 1,
+    "accountNumberGenerated": "1000000000",
+    "dateCreated": "2024-02-06T09:41:53.708",
+    "dateLastUpdated": "2024-02-06T09:41:53.708"
+  }
+]
+
+
+ update [MelvinBank_DB].[dbo].[Accounts] set CurrentAccountBalance=10000000 where Email = 'Melvin_Bank@yahoo.co.uk'
+  update [MelvinBank_DB].[dbo].[Accounts] set CurrentAccountBalance=10 where Email = 'ozighi_luk@gmail.com'
+
+  setx SECRET "7ee01e14-6ca0-4601-b7b7-c7f9569b1e49MELVINBANKSECRETKEY" /M
+
+  {
+  "firstName": "Ikechukwu",
+  "lastName": "Eboigbe",
+  "userName": "Ozighi",
+  "password": "Password1000",
+  "email": "ikechebs@gmail.com",
+  "phoneNumber": "08101103881",
+  "roles": [
+    "Administrator"
+  ]
+}
+
+  {
+  "firstName": "Ikechukwu",
+  "lastName": "Eboigbe",
+  "userName": "will",
+  "password": "Password2000",
+  "email": "ikechebs@gmail.com",
+  "phoneNumber": "08101103881",
+  "roles": [
+    "Administrator"
+  ]
+}
+
+
